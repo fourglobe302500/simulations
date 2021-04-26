@@ -1,0 +1,12 @@
+{
+  "name": "simulacoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./build.ps1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
