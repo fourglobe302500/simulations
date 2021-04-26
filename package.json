@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./build.ps1"
+    "build": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./build.ps1",
+    "deploy": "npm run build; gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://fourglobe302500.github.io/simulations",
   "devDependencies": {
     "gh-pages": "^3.1.0"
   }
