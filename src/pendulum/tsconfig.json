@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "none",
     "noImplicitAny": true,
-    "outFile": "./dist/app.js",
+    "outFile": "../../dist/pendulum/app.js",
     "preserveConstEnums": true,
     "removeComments": true,
     "rootDir": "./src/",
